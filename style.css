@@ -236,6 +236,7 @@ input:checked {
     left: 0;
     right: 0;
     border-radius: 1rem;
+    box-shadow: 1px 2px 10px #333;
 }
 
 .grass-2 {
