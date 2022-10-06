@@ -22,13 +22,13 @@ Animation With Javascript Vanilla  and CSS.  Courses Of Animation.
 
 > Animation
 
-![Animation01](/../assets/img/an01.png)
+![Animation01](./assets/img/an01.png)
 
-![Animation02](/../assets/img/an02.png)
+![Animation02](./assets/img/an02.png)
 
-![Animation03](/../assets/img/an03.png)
+![Animation03](./assets/img/an03.png)
 
-![Animation03](/../assets/img/an04.png)
+![Animation03](./assets/img/an04.png)
 
 # MIT License
 
