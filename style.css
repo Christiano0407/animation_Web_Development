@@ -47,3 +47,5 @@ input:checked {
 .total__counter::after {
     content: counter(game);
 }
+
+/* === Animation === */
