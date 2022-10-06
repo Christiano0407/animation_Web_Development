@@ -48,8 +48,19 @@ body {
     place-items: center;
 }
 
+/* === TEXT === */
+.text__animation {
+    text-align: center;
+    font-size: 3.4rem;
+    margin: 2rem auto;
+}
+
 input:checked {
     counter-increment: game;
+}
+
+.total__counter {
+    text-align: center;
 }
 
 .total__counter::after {
@@ -83,7 +94,9 @@ input:checked {
     animation: upGhost 2s ease-in-out infinite;
 }
 
-.layer-1 input[type=checkbox] {}
+.layer-1 input[type=checkbox] {
+    counter-increment: game;
+}
 
 /* === Eyes === */
 .eyeLeft {
