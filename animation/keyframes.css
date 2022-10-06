@@ -1,0 +1,39 @@
+@keyframes upGhost {
+    0% {
+        transform: translateY(30%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes upGhostTwo {
+    0% {
+        transform: translateY(50%);
+    }
+
+    50% {
+        transform: translateY(25%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes blink {
+    0% {
+        height: 15px;
+    }
+
+    5% {
+        height: 1px;
+        transform: translate(0px, 15px);
+    }
+
+    10% {
+        transform: translate(0px, 0px);
+        height: 15px;
+    }
+}
