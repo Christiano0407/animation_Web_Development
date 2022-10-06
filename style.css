@@ -94,7 +94,7 @@ input:checked {
     bottom: 0;
     margin: 0 auto;
     background-color: green;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .layer-4 {
@@ -107,7 +107,7 @@ input:checked {
     bottom: 0;
     margin: 0 auto;
     background-color: chocolate;
-    border-radius: 1rem;
+    border-radius: .5rem;
 
 }
 
@@ -143,7 +143,7 @@ input:checked {
     bottom: 0;
     margin: 0 auto;
     background-color: green;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .layer-8 {
@@ -156,15 +156,40 @@ input:checked {
     bottom: 0;
     margin: 0 auto;
     background-color: chocolate;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .layer-9 {
     position: absolute;
     z-index: 9;
+    background-color: #f2f2f2;
+    height: 25rem;
+    width: 8rem;
+    bottom: 0;
+    right: 7.5%;
+    border-radius: 5rem;
 }
 
 .layer-10 {
     position: absolute;
     z-index: 10;
+    height: 20rem;
+    width: 15rem;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 2rem;
+}
+
+.layer-11 {
+    position: absolute;
+    z-index: 10;
+    height: 17.5rem;
+    width: 15rem;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: chocolate;
+    border-radius: 1rem;
 }
