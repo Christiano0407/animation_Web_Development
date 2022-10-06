@@ -1,3 +1,8 @@
+/* === IMPORT === */
+@import url("./animation/mediaqueries.css");
+@import url("./animation/keyframes.css");
+
+/* === CSS Design Style === */
 *,
 *::before,
 *::after {
@@ -73,6 +78,7 @@ input:checked {
     left: 15%;
     border-radius: 5rem;
     box-shadow: 1px 2px 15px #333;
+    animation: upGhost, 2s ease-in-out 1s forwards;
 }
 
 /* === Eyes === */
@@ -86,6 +92,9 @@ input:checked {
     right: 0;
     bottom: -25px;
     border-radius: 50%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .eyeRight {
@@ -98,6 +107,9 @@ input:checked {
     right: 0;
     bottom: -10px;
     border-radius: 50%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .layer-2 {
