@@ -35,9 +35,12 @@ body {
     counter-reset: game;
 }
 
-.main {
+.main__container {
     width: 100%;
+    height: 100vh;
     background-color: #fff;
+    display: grid;
+    place-items: center;
 }
 
 input:checked {
@@ -49,3 +52,51 @@ input:checked {
 }
 
 /* === Animation === */
+.phone {
+    position: relative;
+    border: 8px solid #333;
+    width: 50%;
+    height: 80%;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 25px 2px #333;
+}
+
+.layer-1 {
+    position: absolute;
+}
+
+.layer-2 {
+    position: absolute;
+}
+
+.layer-3 {
+    position: absolute;
+}
+
+.layer-4 {
+    position: absolute;
+}
+
+.layer-5 {
+    position: absolute;
+}
+
+.layer-6 {
+    position: absolute;
+}
+
+.layer-7 {
+    position: absolute;
+}
+
+.layer-8 {
+    position: absolute;
+}
+
+.layer-9 {
+    position: absolute;
+}
+
+.layer-10 {
+    position: absolute;
+}
