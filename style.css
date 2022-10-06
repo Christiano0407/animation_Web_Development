@@ -79,8 +79,11 @@ input:checked {
     left: 15%;
     border-radius: 5rem;
     box-shadow: 1px 2px 15px #333;
-    animation: upGhost 2s ease-in-out 1s infinite;
+
+    animation: upGhost 2s ease-in-out infinite;
 }
+
+.layer-1 input[type=checkbox] {}
 
 /* === Eyes === */
 .eyeLeft {

@@ -1,10 +1,16 @@
 @keyframes upGhost {
     0% {
-        transform: translateY(30%);
+        bottom: 0;
+        /* transform: translateY(30%); */
+    }
+
+    25% {
+        bottom: -80px;
     }
 
     100% {
-        transform: translateY(0%);
+        /* transform: translateY(0%); */
+        bottom: 0;
     }
 }
 
