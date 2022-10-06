@@ -87,11 +87,28 @@ input:checked {
 .layer-3 {
     position: absolute;
     z-index: 3;
+    height: 40rem;
+    width: 22.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 1rem;
 }
 
 .layer-4 {
     position: absolute;
     z-index: 4;
+    height: 37.5rem;
+    width: 22.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: chocolate;
+    border-radius: 1rem;
+
 }
 
 .layer-5 {
