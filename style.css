@@ -10,10 +10,6 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    width: 100%;
-}
-
 ul {
     list-style: none;
 }
@@ -34,7 +30,20 @@ img {
     object-fit: cover;
 }
 
+body {
+    width: 100%;
+    counter-reset: game;
+}
+
 .main {
     width: 100%;
     background-color: #fff;
+}
+
+input:checked {
+    counter-increment: game;
+}
+
+.total__counter::after {
+    content: counter(game);
 }
