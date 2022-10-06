@@ -200,11 +200,11 @@ input:checked {
 .grass-1 {
     position: absolute;
     z-index: 11;
-    width: 150px;
+    width: 100%;
     background-color: hsl(120deg 100% 25%);
     height: 75px;
     bottom: 0;
-    left: 25%;
+    left: 0;
     right: 0;
     border-radius: 1rem;
 }
@@ -238,7 +238,7 @@ input:checked {
     width: 100px;
     background-color: hsl(120deg 100% 25%);
     height: 75px;
-    bottom: 10px;
+    bottom: 15px;
     left: 50%;
     border-radius: 50%;
 }
