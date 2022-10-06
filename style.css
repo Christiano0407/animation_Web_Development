@@ -216,7 +216,7 @@ input:checked {
     background-color: hsl(120deg 100% 25%);
     height: 100px;
     bottom: 0;
-    left: 35%;
+    left: 15%;
     right: 0;
     border-radius: 50%;
 }
@@ -228,8 +228,7 @@ input:checked {
     background-color: hsl(120deg 100% 25%);
     height: 75px;
     bottom: 10px;
-    left: 15%;
-    right: 0;
+    right: 50%;
     border-radius: 50%;
 }
 
