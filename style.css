@@ -114,21 +114,49 @@ input:checked {
 .layer-5 {
     position: absolute;
     z-index: 5;
+    background-color: #f2f2f2;
+    height: 35rem;
+    width: 8rem;
+    bottom: 0;
+    left: 5%;
+    border-radius: 5rem;
 }
 
 .layer-6 {
     position: absolute;
     z-index: 6;
+    background-color: #f2f2f2;
+    height: 35rem;
+    width: 8rem;
+    bottom: 0;
+    right: 30%;
+    border-radius: 5rem;
 }
 
 .layer-7 {
     position: absolute;
     z-index: 7;
+    height: 30rem;
+    width: 22.5rem;
+    left: -20%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 1rem;
 }
 
 .layer-8 {
     position: absolute;
     z-index: 8;
+    height: 27.5rem;
+    width: 22.5rem;
+    left: -20%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: chocolate;
+    border-radius: 1rem;
 }
 
 .layer-9 {
