@@ -61,6 +61,7 @@ input:checked {
     box-shadow: 2px 2px 25px 2px #333;
     background-color: #CCEFFF;
 }
+
 /* === Layer === */
 .layer-1 {
     position: absolute;
@@ -271,5 +272,30 @@ input:checked {
     height: 75px;
     bottom: 15px;
     left: 50%;
+    border-radius: 50%;
+}
+
+/* === Eyes === */
+.eyeL {
+    position: initial;
+    z-index: 3;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    left: 20px;
+    right: 0;
+    bottom: -25px;
+    border-radius: 50%;
+}
+
+.eyeR {
+    position: initial;
+    z-index: 3;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    left: 55px;
+    right: 0;
+    bottom: -10px;
     border-radius: 50%;
 }
