@@ -37,7 +37,7 @@ img {
 
 body {
     width: 100%;
-    counter-reset: game;
+    counter-reset: score;
 }
 
 .main__container {
@@ -55,16 +55,16 @@ body {
     margin: 2rem auto;
 }
 
-input:checked {
+/* input:checked {
     counter-increment: game;
-}
+} */
 
 .total__counter {
     text-align: center;
 }
 
 .total__counter::after {
-    content: counter(game);
+    content: counter(score);
 }
 
 /* === Animation === */
@@ -95,7 +95,31 @@ input:checked {
 }
 
 .layer-1 input[type=checkbox] {
-    counter-increment: game;
+    animation: upGhost 2s ease-in-out infinite;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 8rem;
+    z-index: 2;
+}
+
+input[type=checkbox]:focus {
+    appearance: none;
+    outline: none;
+}
+
+input:checked {
+    counter-increment: score;
+}
+
+.score::after {
+    content: counter(score);
 }
 
 /* === Eyes === */
