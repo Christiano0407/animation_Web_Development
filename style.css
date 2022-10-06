@@ -131,7 +131,7 @@ input:checked {
     background-color: hsl(0deg 0% 20%);
     left: 20px;
     right: 0;
-    bottom: -25px;
+    bottom: 25px;
     border-radius: 50%;
     animation-name: blink;
     animation-duration: 1s;
@@ -146,7 +146,7 @@ input:checked {
     background-color: hsl(0deg 0% 20%);
     left: 55px;
     right: 0;
-    bottom: -10px;
+    bottom: 40px;
     border-radius: 50%;
     animation-name: blink;
     animation-duration: 1s;
