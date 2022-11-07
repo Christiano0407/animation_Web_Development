@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/animation_Web_Development/issues"
   },
-  "homepage": "https://github.com/Christiano0407/animation_Web_Development#readme"
+  "homepage": "https://github.com/Christiano0407/animation_Web_Development#readme",
+  "dependencies": {
+    "jshint": "^2.13.5"
+  }
 }
