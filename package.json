@@ -1,0 +1,23 @@
+{
+  "name": "animation_web_development",
+  "version": "1.0.0",
+  "description": "javascript-animation-Pro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/animation_Web_Development.git"
+  },
+  "keywords": [
+    "javascript",
+    "animation"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/animation_Web_Development/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/animation_Web_Development#readme"
+}
